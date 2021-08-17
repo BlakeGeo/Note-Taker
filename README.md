@@ -3,32 +3,28 @@
    
   
 <p align="center">
-    <img src="https://img.shields.io/github/repo-size/BlakeGeo/Team-Profile-Generator" />
-    <img src="https://img.shields.io/github/languages/top/BlakeGeo/Team-Profile-Generator"  />
-    <img src="https://img.shields.io/github/issues/BlakeGeo/Team-Profile-Generator" />
-    <img src="https://img.shields.io/github/last-commit/BlakeGeo/Team-Profile-Generator" >
+    <img src="https://img.shields.io/github/repo-size/BlakeGeo/Note-Taker" />
+    <img src="https://img.shields.io/github/languages/top/BlakeGeo/Note-Taker"  />
+    <img src="https://img.shields.io/github/issues/BlakeGeo/Note-Taker" />
+    <img src="https://img.shields.io/github/last-commit/BlakeGeo/Note-Taker" >
 </p>
   
 <p align="center">
     <img src="https://img.shields.io/badge/Javascript-yellow" />
     <img src="https://img.shields.io/badge/VisualStudioCode-blue"  />
     <img src="https://img.shields.io/badge/-node.js-green" />
-    <img src="https://img.shields.io/badge/-inquirer-red" >
-    <img src="https://img.shields.io/badge/-screencastify-lightgrey" />
-    <img src="https://img.shields.io/badge/-jest-orange" />
+    <img src="https://img.shields.io/badge/-express-red" >
+    <img src="https://img.shields.io/badge/-uuid-orange" />
     <img src="https://img.shields.io/badge/-shield.io-brightgreen" />
 
 </p>
    
 ## Description
   
-🔍 A node.js application that uses user input from inquirer to populate an index.html file that shows all employees on the team in a card format. The html file is created in the main directory and can be found [here](index.html)  
+🔍 An express.js application that connects the front end to back end and uses user input to save personalised notes.
+
+The application can be found deployed [here](https://thawing-gorge-14596.herokuapp.com/) on Heroku.
   
-💻 Below is a gif showing the functionality of the application:
-  
-![README Generator](dist/Team-Generator.gif)
-  
-🎥 The full movie file showing functionality of the application can be found [here](https://drive.google.com/file/d/1_wV1USgX_vmdTCFzOBwmB7CTQVBdPmOH/view)
   
 ## User Story
   
@@ -70,7 +66,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 `npm i express uuid`
   
 ## Usage
-💻 Run the following command at the root of your project and answer the prompted questions:
+💻 Run the following command at the root of your project to deploy to local server.
   
 `node server.js`
 
