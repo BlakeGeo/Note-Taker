@@ -4,8 +4,10 @@ const app = express();
 const webRouter = require('./routes/web');
 const apiRouter = require('./routes/api');
 
+// Environment
 const PORT = process.env.PORT || 3001;
 
+// Middleware
 app.use(express.static('public'));
 app.use(express.json());
 
